@@ -1,0 +1,52 @@
+2020-10-16T09:38:25+00:00 CRITICAL syntax error, unexpected ''fallback_cb'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in D:\Projects\pantheonsite\wp-content\themes\pantheonsite\header.php on line 134
+
+2020-10-16T12:46:43+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in D:\Projects\pantheonsite\wp-content\themes\pantheonsite\functions.php:67
+Stack trace:
+#0 D:\Projects\pantheonsite\wp-includes\class-wp-hook.php(287): customizer_logo(Object(WP_Customize_Manager))
+#1 D:\Projects\pantheonsite\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 D:\Projects\pantheonsite\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\Projects\pantheonsite\wp-includes\class-wp-customize-manager.php(928): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 D:\Projects\pantheonsite\wp-includes\class-wp-hook.php(287): WP_Customize_Manager->wp_loaded('')
+#5 D:\Projects\pantheonsite\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Projects\pantheonsite\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 D:\Projects\pantheonsite\wp-settings.php(562): do_action('wp_loaded')
+#8 D:\Projects\pantheonsite\wp-config.php(90): require_once('D:\\Projects\\pan...')
+#9 D:\Projects\pantheonsite\wp-load.php(37): require_once('D:\\Projects\\pan...')
+#10 D:\Projects\pantheonsite\wp-admin\admin-ajax.php(22): require_once('D:\\Projects\\pan...')
+#11 {main}
+  thrown in D:\Projects\pantheonsite\wp-content\themes\pantheonsite\functions.php on line 67
+
+2020-10-16T12:46:44+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in D:\Projects\pantheonsite\wp-content\themes\pantheonsite\functions.php:67
+Stack trace:
+#0 D:\Projects\pantheonsite\wp-includes\class-wp-hook.php(287): customizer_logo(Object(WP_Customize_Manager))
+#1 D:\Projects\pantheonsite\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 D:\Projects\pantheonsite\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\Projects\pantheonsite\wp-includes\class-wp-customize-manager.php(928): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 D:\Projects\pantheonsite\wp-includes\class-wp-hook.php(287): WP_Customize_Manager->wp_loaded('')
+#5 D:\Projects\pantheonsite\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Projects\pantheonsite\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 D:\Projects\pantheonsite\wp-settings.php(562): do_action('wp_loaded')
+#8 D:\Projects\pantheonsite\wp-config.php(90): require_once('D:\\Projects\\pan...')
+#9 D:\Projects\pantheonsite\wp-load.php(37): require_once('D:\\Projects\\pan...')
+#10 D:\Projects\pantheonsite\wp-admin\admin.php(34): require_once('D:\\Projects\\pan...')
+#11 D:\Projects\pantheonsite\wp-admin\customize.php(13): require_once('D:\\Projects\\pan...')
+#12 {main}
+  thrown in D:\Projects\pantheonsite\wp-content\themes\pantheonsite\functions.php on line 67
+
+2020-10-16T12:47:26+00:00 CRITICAL Uncaught Error: Call to a member function add_section() on null in D:\Projects\pantheonsite\wp-content\themes\pantheonsite\functions.php:76
+Stack trace:
+#0 D:\Projects\pantheonsite\wp-includes\class-wp-hook.php(287): customizer_logo_image_top_header(Object(WP_Customize_Manager))
+#1 D:\Projects\pantheonsite\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 D:\Projects\pantheonsite\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\Projects\pantheonsite\wp-includes\class-wp-customize-manager.php(928): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 D:\Projects\pantheonsite\wp-includes\class-wp-hook.php(287): WP_Customize_Manager->wp_loaded('')
+#5 D:\Projects\pantheonsite\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 D:\Projects\pantheonsite\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 D:\Projects\pantheonsite\wp-settings.php(562): do_action('wp_loaded')
+#8 D:\Projects\pantheonsite\wp-config.php(90): require_once('D:\\Projects\\pan...')
+#9 D:\Projects\pantheonsite\wp-load.php(37): require_once('D:\\Projects\\pan...')
+#10 D:\Projects\pantheonsite\wp-admin\admin.php(34): require_once('D:\\Projects\\pan...')
+#11 D:\Projects\pantheonsite\wp-admin\customize.php(13): require_once('D:\\Projects\\pan...')
+#12 {main}
+  thrown in D:\Projects\pantheonsite\wp-content\themes\pantheonsite\functions.php on line 76
+
